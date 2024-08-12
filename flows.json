@@ -1,1 +1,1024 @@
-[]
+[
+    {
+        "id": "f6f2187d.f17ca8",
+        "type": "tab",
+        "label": "Torn Flow",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "14ee6b29a693ecd1",
+        "type": "junction",
+        "z": "f6f2187d.f17ca8",
+        "x": 1820,
+        "y": 480,
+        "wires": [
+            [
+                "f2fd2a6896a01ea6"
+            ]
+        ]
+    },
+    {
+        "id": "63cf73902e20ab16",
+        "type": "junction",
+        "z": "f6f2187d.f17ca8",
+        "x": 1020,
+        "y": 500,
+        "wires": [
+            [
+                "a175d4d5fd4d1716",
+                "4087d7d99cd4d332",
+                "84dc73c08b7696b9",
+                "e4c405861f2b1729",
+                "09be36893c914384",
+                "cc34835fb66f5e88",
+                "d21ee368714f6d40",
+                "3790d2b3019dfa24"
+            ]
+        ]
+    },
+    {
+        "id": "712b7b280acc0bf9",
+        "type": "junction",
+        "z": "f6f2187d.f17ca8",
+        "x": 1860,
+        "y": 600,
+        "wires": [
+            [
+                "c72a6e4dde7124a8"
+            ]
+        ]
+    },
+    {
+        "id": "2adce948bf4fcca8",
+        "type": "junction",
+        "z": "f6f2187d.f17ca8",
+        "x": 1856.895751953125,
+        "y": 560.0138549804688,
+        "wires": [
+            [
+                "c72a6e4dde7124a8"
+            ]
+        ]
+    },
+    {
+        "id": "f2fd2a6896a01ea6",
+        "type": "junction",
+        "z": "f6f2187d.f17ca8",
+        "x": 1860,
+        "y": 500,
+        "wires": [
+            [
+                "c72a6e4dde7124a8"
+            ]
+        ]
+    },
+    {
+        "id": "a3f16f18f3c43bf0",
+        "type": "junction",
+        "z": "f6f2187d.f17ca8",
+        "x": 1860,
+        "y": 760,
+        "wires": [
+            [
+                "c72a6e4dde7124a8"
+            ]
+        ]
+    },
+    {
+        "id": "7669888c62e3793c",
+        "type": "junction",
+        "z": "f6f2187d.f17ca8",
+        "x": 1860,
+        "y": 720,
+        "wires": [
+            [
+                "c72a6e4dde7124a8"
+            ]
+        ]
+    },
+    {
+        "id": "7a368f067b35affb",
+        "type": "junction",
+        "z": "f6f2187d.f17ca8",
+        "x": 1860,
+        "y": 680,
+        "wires": [
+            [
+                "c72a6e4dde7124a8"
+            ]
+        ]
+    },
+    {
+        "id": "dea4675893d04cb2",
+        "type": "junction",
+        "z": "f6f2187d.f17ca8",
+        "x": 1860,
+        "y": 640,
+        "wires": [
+            [
+                "c72a6e4dde7124a8"
+            ]
+        ]
+    },
+    {
+        "id": "c72a6e4dde7124a8",
+        "type": "junction",
+        "z": "f6f2187d.f17ca8",
+        "x": 1980,
+        "y": 500,
+        "wires": [
+            [
+                "76f9f9ea596873d2",
+                "2896c3fcdccf1df4",
+                "63ec28794d3f3830"
+            ]
+        ]
+    },
+    {
+        "id": "138ee6633c8bd50c",
+        "type": "junction",
+        "z": "f6f2187d.f17ca8",
+        "x": 600,
+        "y": 500,
+        "wires": [
+            [
+                "7378079c636e2549",
+                "4d5895ff10df2317"
+            ]
+        ]
+    },
+    {
+        "id": "cd464ff6c4f76ad7",
+        "type": "junction",
+        "z": "f6f2187d.f17ca8",
+        "x": 440,
+        "y": 520,
+        "wires": [
+            [
+                "33d03061e64285f5"
+            ]
+        ]
+    },
+    {
+        "id": "347c23ebe0f90646",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "192.168.100.10",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "6870f742b94aafe7",
+        "type": "global-config",
+        "name": "global-config",
+        "env": [
+            {
+                "name": "ClockBlada",
+                "value": "",
+                "type": "str"
+            },
+            {
+                "name": "ClockSpecker",
+                "value": "",
+                "type": "str"
+            },
+            {
+                "name": "TornBlada",
+                "value": "awtrix_635047",
+                "type": "str"
+            },
+            {
+                "name": "TornSpecker",
+                "value": "awtrix_635048",
+                "type": "str"
+            }
+        ]
+    },
+    {
+        "id": "ceecf25f936ecdec",
+        "type": "http request",
+        "z": "f6f2187d.f17ca8",
+        "name": "Travel, Bars",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "https://api.torn.com/user/?selections=travel,bars,newevents,newmessages&key={{token}}",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 910,
+        "y": 500,
+        "wires": [
+            [
+                "63cf73902e20ab16"
+            ]
+        ]
+    },
+    {
+        "id": "9d9854b3102c7b4a",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 350,
+        "y": 500,
+        "wires": [
+            [
+                "4f98ee01596b9cf1",
+                "f3f1c207bea6b152",
+                "cd464ff6c4f76ad7",
+                "167bcd6b2ffa9077"
+            ]
+        ]
+    },
+    {
+        "id": "7378079c636e2549",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "SetupUserVar",
+        "func": "flow.set(`${msg.account}/lifeSent`, false)\nflow.set(`${msg.account}/nerveSent`, false)\nflow.set(`${msg.account}/energySent`, false)\nflow.set(`${msg.account}/happySent`, false)\nflow.set(`${msg.account}/landSent`, false)\nflow.set(`${msg.account}/travelDeparted`, \"\" )\nflow.set(`${msg.account}/lastEvents`,0)\nflow.set(`${msg.account}/lastMessages`, 0)",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 720,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f27c4bd729f983f8",
+        "type": "delay",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "pauseType": "timed",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "5",
+        "rateUnits": "minute",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1720,
+        "y": 640,
+        "wires": [
+            [
+                "dea4675893d04cb2"
+            ]
+        ]
+    },
+    {
+        "id": "cf5989a5ed9aae77",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "Happy",
+        "func": "var happy = msg.payload.happy.current;\nvar maxHappy = msg.payload.happy.maximum;\nconst percentage = Number.parseInt(((happy / maxHappy) * 100).toFixed(0))\nvar percentageState = \"\"\n\nif(percentage <= 20){\n    percentageState = \"lowPercent\"\n}\nelse if (percentage > 20 && percentage <= 40){\n    percentageState = \"lowMidPercent\"\n}\nelse if (percentage > 40 && percentage <= 60) {\n    percentageState = \"midPercent\"\n}\nelse if (percentage > 60 && percentage <= 80) {\n    percentageState = \"midHighPercent\"\n}\nelse{\n    percentageState = \"highPercent\"\n}\n\nvar newMsg = {\n    payload: {\n        \"text\": percentage + \"%\",\n        \"duration\": 5,\n        \"icon\": 6913,\n        \"progress\": percentage,\n        \"progressC\": flow.get(percentageState)\n    },\n    token: msg.token,\n    topic: msg.topic\n};\n\nif (happy >= maxHappy && !flow.get(`${msg.account}/happySent`)){\n    newMsg.flush = 1\n    newMsg.toFront = true\n    flow.set(`${msg.account}/happySent`, true)\n}\nelse if(happy < maxHappy){\n    flow.set(`${msg.account}/happySent`, false)\n}\n\nreturn newMsg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1390,
+        "y": 640,
+        "wires": [
+            [
+                "f27c4bd729f983f8"
+            ]
+        ]
+    },
+    {
+        "id": "dfa5e0a46fd40335",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "Energy",
+        "func": "var energy = msg.payload.energy.current;\nvar maxEnergy = msg.payload.energy.maximum;\n\nconst percentage = Number.parseInt(((energy / maxEnergy) * 100).toFixed(0))\nvar percentageState = \"\"\n\nif(percentage <= 20){\n    percentageState = \"lowPercent\"\n}\nelse if (percentage > 20 && percentage <= 40){\n    percentageState = \"lowMidPercent\"\n}\nelse if (percentage > 40 && percentage <= 60) {\n    percentageState = \"midPercent\"\n}\nelse if (percentage > 60 && percentage <= 80) {\n    percentageState = \"midHighPercent\"\n}\nelse{\n    percentageState = \"highPercent\"\n}\n\nvar newMsg = {\n    payload: {\n        \"text\": percentage + \"%\",\n        \"duration\": 5,\n        \"icon\": 8644,\n        \"progress\": percentage,\n        \"progressC\": flow.get(percentageState)\n    },\n    token: msg.token,\n    topic: msg.topic\n};\n\nif (energy >= maxEnergy && !flow.get(`${msg.account}/energySent`)) {\n    newMsg.flush = 1\n    newMsg.toFront = true\n    flow.set(`${msg.account}/energySent`, true)\n}\nelse if (energy < maxEnergy) {\n    flow.set(`${msg.account}/energySent`, false)\n}\n\nreturn newMsg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1400,
+        "y": 680,
+        "wires": [
+            [
+                "d8d1537729854d03"
+            ]
+        ]
+    },
+    {
+        "id": "29e09023639f3349",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "Health",
+        "func": "var life = msg.payload.life.current;\nvar maxLife = msg.payload.life.maximum;\nconst percentage = Number.parseInt(((life / maxLife) * 100).toFixed(0))\nvar percentageState = \"\"\n\nif(percentage <= 20){\n    percentageState = \"lowPercent\"\n}\nelse if (percentage > 20 && percentage <= 40){\n    percentageState = \"lowMidPercent\"\n}\nelse if (percentage > 40 && percentage <= 60) {\n    percentageState = \"midPercent\"\n}\nelse if (percentage > 60 && percentage <= 80) {\n    percentageState = \"midHighPercent\"\n}\nelse{\n    percentageState = \"highPercent\"\n}\n\nvar newMsg = {\n    payload: {\n        \"text\": percentage + \"%\",\n        \"duration\": 5,\n        \"icon\": 61,\n        \"progress\": percentage,\n        \"progressC\": flow.get(percentageState)\n    },\n    token: msg.token,\n    topic: msg.topic\n};\nif (life >= maxLife && !flow.get(`${msg.account}/lifeSent`)) {\n    newMsg.flush = 1\n    newMsg.toFront = true\n    flow.set(`${msg.account}/lifeSent`, true)\n}\nelse if (life < maxLife) {\n    flow.set(`${msg.account}/lifeSent`, false)\n}\nreturn newMsg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1390,
+        "y": 720,
+        "wires": [
+            [
+                "d803f196908c1b6b"
+            ]
+        ]
+    },
+    {
+        "id": "f6492d121878c6f8",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "Nerve",
+        "func": "var nerve = msg.payload.nerve.current;\nvar maxNerve = msg.payload.nerve.maximum;\nconst percentage = Number.parseInt(((nerve / maxNerve) * 100).toFixed(0))\nvar percentageState = \"\"\n\nif(percentage <= 20){\n    percentageState = \"lowPercent\"\n}\nelse if (percentage > 20 && percentage <= 40){\n    percentageState = \"lowMidPercent\"\n}\nelse if (percentage > 40 && percentage <= 60) {\n    percentageState = \"midPercent\"\n}\nelse if (percentage > 60 && percentage <= 80) {\n    percentageState = \"midHighPercent\"\n}\nelse{\n    percentageState = \"highPercent\"\n}\n\nvar newMsg = {\n    payload: {\n        \"text\": percentage + \"%\",\n        \"duration\": 5,\n        \"icon\": 52565,\n        \"progress\": percentage,\n        \"progressC\": flow.get(percentageState)\n    },\n    token: msg.token,\n    topic: msg.topic\n};\n\nif (nerve >= maxNerve && !flow.get(`${msg.account}/nerveSent`)) {\n    newMsg.flush = 1\n    newMsg.toFront = true\n    flow.set(`${msg.account}/nerveSent`, true)\n}\nelse if (nerve < maxNerve) {\n    flow.set(`${msg.account}/nerveSent`, false)\n}\n\nreturn newMsg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1390,
+        "y": 760,
+        "wires": [
+            [
+                "0290f51841a0bf69"
+            ]
+        ]
+    },
+    {
+        "id": "d8d1537729854d03",
+        "type": "delay",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "pauseType": "timed",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "5",
+        "rateUnits": "minute",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1720,
+        "y": 680,
+        "wires": [
+            [
+                "7a368f067b35affb"
+            ]
+        ]
+    },
+    {
+        "id": "d803f196908c1b6b",
+        "type": "delay",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "pauseType": "timed",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "5",
+        "rateUnits": "minute",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1720,
+        "y": 720,
+        "wires": [
+            [
+                "7669888c62e3793c"
+            ]
+        ]
+    },
+    {
+        "id": "0290f51841a0bf69",
+        "type": "delay",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "pauseType": "timed",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "5",
+        "rateUnits": "minute",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1720,
+        "y": 760,
+        "wires": [
+            [
+                "a3f16f18f3c43bf0"
+            ]
+        ]
+    },
+    {
+        "id": "a175d4d5fd4d1716",
+        "type": "json",
+        "z": "f6f2187d.f17ca8",
+        "name": "Travel",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 1210,
+        "y": 500,
+        "wires": [
+            [
+                "7ea0b049acaf1707"
+            ]
+        ]
+    },
+    {
+        "id": "7750557d3b5a1158",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "Flying",
+        "func": "var destination = msg.payload.travel.destination\nvar timestamp = msg.payload.travel.timestamp\nvar departed = msg.payload.travel.departed\nvar timeLeft = msg.payload.travel.time_left\n\nconst hrs = ~~(timeLeft / 3600);\nconst mins = ~~((timeLeft % 3600) / 60);\nconst secs = ~~timeLeft % 60;\n\nvar time = \"\";\n\nif (hrs > 0) {\n    time += \"\" + hrs + \":\" + (mins < 10 ? \"0\" : \"\");\n}\ntime += \"\" + mins + \":\" + (secs < 10 ? \"0\" : \"\");\ntime += \"\" + secs;\n\nconst flownTime = timestamp - departed\nconst totalTime = flownTime - timeLeft\nconst percentage = Number.parseInt(((totalTime / flownTime) * 100).toFixed(0))\nvar newMsg = newMsg = {\n    payload: {\n        \"text\": time,\n        \"duration\": 5,\n        \"icon\": 2933,\n        \"progress\": percentage\n    },\n    token: msg.token,\n    topic: msg.topic\n};\n\nif (destination != \"Torn\"){\n    newMsg.payload.icon = 2933\n}\nelse if (destination == \"Torn\") {\n    newMsg.payload.icon = 2934\n}\nflow.set(`${msg.account}/landSent`, false)\nif(flow.get(`${msg.account}/travelDeparted`) != departed){\n    newMsg.flush = 1\n    newMsg.toFront = true\n    flow.set(`${msg.account}/travelDeparted`, departed)\n}\n\nreturn newMsg;\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1530,
+        "y": 520,
+        "wires": [
+            [
+                "d4ed44c2b8e4b36a"
+            ]
+        ]
+    },
+    {
+        "id": "d4ed44c2b8e4b36a",
+        "type": "delay",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "pauseType": "timed",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "5",
+        "rateUnits": "minute",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1720,
+        "y": 520,
+        "wires": [
+            [
+                "f2fd2a6896a01ea6"
+            ]
+        ]
+    },
+    {
+        "id": "c3b1139ba7293d62",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "Landing",
+        "func": "var destination = msg.payload.travel.destination\nvar timeLeft = msg.payload.travel.time_left\n\nif (!flow.get(`${msg.account}/landSent`) && timeLeft != 0){\n    var newMsg = {\n        payload: {\n            \"text\": \"Landing\",\n            \"duration\": timeLeft,\n            \"icon\": 12769,\n            \"stack\": false\n        },\n        token: msg.token,\n        topic: msg.topic\n    };\n    flow.set(`${msg.account}/landSent`,true)\n}\n\nreturn newMsg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1540,
+        "y": 480,
+        "wires": [
+            [
+                "14ee6b29a693ecd1"
+            ]
+        ]
+    },
+    {
+        "id": "7ea0b049acaf1707",
+        "type": "switch",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "property": "payload.travel.time_left",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "lte",
+                "v": "60",
+                "vt": "num"
+            },
+            {
+                "t": "gt",
+                "v": "60",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 1390,
+        "y": 500,
+        "wires": [
+            [
+                "c3b1139ba7293d62"
+            ],
+            [
+                "7750557d3b5a1158"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "4087d7d99cd4d332",
+        "type": "json",
+        "z": "f6f2187d.f17ca8",
+        "name": "Nerve",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 1210,
+        "y": 760,
+        "wires": [
+            [
+                "f6492d121878c6f8"
+            ]
+        ]
+    },
+    {
+        "id": "84dc73c08b7696b9",
+        "type": "json",
+        "z": "f6f2187d.f17ca8",
+        "name": "Energy",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 1220,
+        "y": 680,
+        "wires": [
+            [
+                "dfa5e0a46fd40335"
+            ]
+        ]
+    },
+    {
+        "id": "e4c405861f2b1729",
+        "type": "json",
+        "z": "f6f2187d.f17ca8",
+        "name": "Life",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 1210,
+        "y": 720,
+        "wires": [
+            [
+                "29e09023639f3349"
+            ]
+        ]
+    },
+    {
+        "id": "09be36893c914384",
+        "type": "json",
+        "z": "f6f2187d.f17ca8",
+        "name": "Happy",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 1210,
+        "y": 640,
+        "wires": [
+            [
+                "cf5989a5ed9aae77"
+            ]
+        ]
+    },
+    {
+        "id": "cc34835fb66f5e88",
+        "type": "json",
+        "z": "f6f2187d.f17ca8",
+        "name": "Events",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 1210,
+        "y": 560,
+        "wires": [
+            [
+                "60ac7f7d08ac397e"
+            ]
+        ]
+    },
+    {
+        "id": "d21ee368714f6d40",
+        "type": "json",
+        "z": "f6f2187d.f17ca8",
+        "name": "Messages",
+        "property": "payload",
+        "action": "",
+        "pretty": true,
+        "x": 1230,
+        "y": 600,
+        "wires": [
+            [
+                "12ffe0f5e60ef3d0"
+            ]
+        ]
+    },
+    {
+        "id": "3790d2b3019dfa24",
+        "type": "json",
+        "z": "f6f2187d.f17ca8",
+        "name": "full",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 1210,
+        "y": 440,
+        "wires": [
+            [
+                "b4f9ec412bb1fcb7",
+                "7e3287759f5afeb1",
+                "01fa77e63a3f5970"
+            ]
+        ]
+    },
+    {
+        "id": "b4f9ec412bb1fcb7",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "name": "Token",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "token",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1390,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "60ac7f7d08ac397e",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "Events",
+        "func": "var events = msg.payload.events\nvar result = [];\n\nfor (var event in events) {\n    result.push([event, events[event]])\n}\n\nvar newMsg = {\n        payload: {\n            \"duration\": 5,\n            \"icon\": 48693\n        },\n        token: msg.token,\n        topic: msg.topic\n    };\n\nif (result.length > flow.get(`${msg.account}/lastEvents`)) {\n    newMsg.flush = 1\n    newMsg.toFront = true\n    newMsg.payload.text = \"new events: \" + result.length + \"\"\n    newMsg.payload.stack = false\n    flow.set(`${msg.account}/lastEvents`, result.length)\n}\nelse if (result.length > 0 && result.length < flow.get(`${msg.account}/lastEvents`)) {\n    newMsg.flush = 1\n    newMsg.toFront = true\n    newMsg.payload.text = \"new events: \" + result.length + \"\"\n    newMsg.payload.stack = false\n    flow.set(`${msg.account}/lastEvents`, result.length)\n}\nelse {\n    newMsg.payload.text = \"Events: \" + result.length + \"\"\n    flow.set(`${msg.account}/lastEvents`, result.length)\n}\n\nif( result.length>0){\n    return newMsg;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1390,
+        "y": 560,
+        "wires": [
+            [
+                "cab2130eda4f66d5"
+            ]
+        ]
+    },
+    {
+        "id": "cab2130eda4f66d5",
+        "type": "delay",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "pauseType": "timed",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "5",
+        "rateUnits": "minute",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1720,
+        "y": 560,
+        "wires": [
+            [
+                "2adce948bf4fcca8"
+            ]
+        ]
+    },
+    {
+        "id": "12ffe0f5e60ef3d0",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "Messages",
+        "func": "var messages = msg.payload.messages\nvar result = [];\n\nfor(var message in messages){\n    result.push([message,messages[message]])\n}\n\nvar newMsg = {\n    payload: {\n        \"duration\": 5,\n        \"icon\": 3381\n    },\n    token: msg.token,\n    topic: msg.topic\n    };\n\nif (result.length > flow.get(`${msg.account}/lastMessages`)) {\n    newMsg.flush = 1\n    newMsg.toFront = true\n    newMsg.payload.text = \"new messages: \" + result.length + \"\"\n    newMsg.payload.stack = false\n    flow.set(`${msg.account}/lastMessages`, result.length)\n}\nelse if (result.length > 0 && result.length < flow.get(`${msg.account}/lastMessages`)) {\n    newMsg.flush = 1\n    newMsg.toFront = true\n    newMsg.payload.text = \"new messages: \" + result.length + \"\"\n    newMsg.payload.stack = false\n    flow.set(`${msg.account}/lastMessages`, result.length)\n}\nelse {\n    newMsg.payload.text = \"Messages: \" + result.length + \"\"\n    flow.set(`${msg.account}/lastMessages`, result.length)\n}\n\nif (result.length > 0) {\n    return newMsg;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1410,
+        "y": 600,
+        "wires": [
+            [
+                "81606da361dc250b"
+            ]
+        ]
+    },
+    {
+        "id": "81606da361dc250b",
+        "type": "delay",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "pauseType": "timed",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "5",
+        "rateUnits": "minute",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1720,
+        "y": 600,
+        "wires": [
+            [
+                "712b7b280acc0bf9"
+            ]
+        ]
+    },
+    {
+        "id": "76f9f9ea596873d2",
+        "type": "mqtt out",
+        "z": "f6f2187d.f17ca8",
+        "name": "Notify Clock",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "347c23ebe0f90646",
+        "x": 2130,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "2896c3fcdccf1df4",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "name": "Topic",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "topic",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2110,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "4d5895ff10df2317",
+        "type": "trigger",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "op1": "",
+        "op2": "0",
+        "op1type": "date",
+        "op2type": "str",
+        "duration": "-2",
+        "extend": false,
+        "overrideDelay": true,
+        "units": "s",
+        "reset": "",
+        "bytopic": "topic",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 720,
+        "y": 520,
+        "wires": [
+            [
+                "ceecf25f936ecdec"
+            ]
+        ]
+    },
+    {
+        "id": "7e3287759f5afeb1",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "name": "Account",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "account",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1400,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "63ec28794d3f3830",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "name": "payload",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2120,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "0f15800cef136919",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "PLACHOLDER",
+        "func": "const token = \"TOKEN\"\nconst topic = \"AWTRIX/notify\"\nconst account = \"TORNUSERID\"\n\nvar newMsg = {\n    token: token,\n    topic: topic,\n    account: account\n};\nreturn newMsg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "01fa77e63a3f5970",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "name": "ServerTime",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload.server_time",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1410,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "4f98ee01596b9cf1",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "SetupFlowVar",
+        "func": "flow.set(`lowPercent`, \"#FF0000\")\nflow.set(`lowMidPercent`, \"#FFBF00\")\nflow.set(`midPercent`, \"#FFFF00\")\nflow.set(`midHighPercent`, \"#BFFF00\")\nflow.set(`highPercent`, \"#00FF00\")",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3090782ee7f75f7b",
+        "type": "comment",
+        "z": "f6f2187d.f17ca8",
+        "name": "Changes needed",
+        "info": " 1. TOKEN - Needs to be changed to the TORNAPI of the user\n 2. AWTRIX - Needs to be changed to the AWTRIXs MQTT topic, for example **awtrix_635048**/notify\n 3. TORNUSERID - Change it to [number] of the account 3313059\n\n To add another user just copy/paste, PLACEHOLDER/your already edited node, and change it acordingly. \n You can add multiple users and point them to one clock, just use one AWTRIX topic.\n Each TOKEN needs to be separate for each user, same as TORNUSERID.",
+        "x": 500,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "f3f1c207bea6b152",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "Specker",
+        "func": "const token = global.get(\"TornSpecker\")\nconst topic = `${global.get(\"ClockSpecker\")}/notify`\nconst account = \"3313059\"\n\nvar newMsg = {\n    token: token,\n    topic: topic,\n    account: account\n};\nreturn newMsg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 480,
+        "wires": [
+            [
+                "138ee6633c8bd50c"
+            ]
+        ]
+    },
+    {
+        "id": "33d03061e64285f5",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "Blada",
+        "func": "const token = global.get(\"TornBlada\")\nconst topic = `${global.get(\"ClockBlada\")}/notify`\nconst account = \"3315211\"\n\nvar newMsg = {\n    token: token,\n    topic: topic,\n    account: account\n};\nreturn newMsg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 520,
+        "wires": [
+            [
+                "138ee6633c8bd50c"
+            ]
+        ]
+    },
+    {
+        "id": "167bcd6b2ffa9077",
+        "type": "credentials",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "props": [
+            {
+                "value": "TornBlada",
+                "type": "global"
+            },
+            {
+                "value": "TornSpecker",
+                "type": "global"
+            }
+        ],
+        "x": 510,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    }
+]
