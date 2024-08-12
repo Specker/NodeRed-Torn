@@ -198,22 +198,22 @@
         "env": [
             {
                 "name": "ClockBlada",
-                "value": "",
-                "type": "str"
-            },
-            {
-                "name": "ClockSpecker",
-                "value": "",
-                "type": "str"
-            },
-            {
-                "name": "TornBlada",
                 "value": "awtrix_635047",
                 "type": "str"
             },
             {
-                "name": "TornSpecker",
+                "name": "ClockSpecker",
                 "value": "awtrix_635048",
+                "type": "str"
+            },
+            {
+                "name": "TornBlada",
+                "value": "",
+                "type": "str"
+            },
+            {
+                "name": "TornSpecker",
+                "value": "",
                 "type": "str"
             }
         ]
@@ -1012,6 +1012,14 @@
             },
             {
                 "value": "TornSpecker",
+                "type": "global"
+            },
+            {
+                "value": "ClockSpecker",
+                "type": "global"
+            },
+            {
+                "value": "ClockBlada",
                 "type": "global"
             }
         ],
